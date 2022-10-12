@@ -1,0 +1,70 @@
+/* Configurações globais */
+* {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  max-width: 1366px;
+  max-height: 768px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* configurações das escolhas das cores */
+#color-palette {
+  flex-direction: row;
+}
+
+.color {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+#color1 {
+  background-color: red;
+}
+
+#color2 {
+  background-color: green;
+}
+
+#color3 {
+  background-color: blue;
+}
+
+#black {
+  background-color: black;
+}
+
+/* configiração do quadro de pixels */
+#pixel-board {
+  text-align: center;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+/* configurações para o javascript */
+
+#clear-board {
+  margin: 20px;
+}
